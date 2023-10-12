@@ -1,7 +1,7 @@
 import javax.swing.JPanel;
 import java.awt.*;
 
-public class MyDirections {
+public class MyBorder {
     public static void main(String args[]) {
         MyFrame myFrame = new MyFrame(); // Create a frame
         myFrame.getContentPane().setBackground(Color.white);
@@ -38,18 +38,6 @@ public class MyDirections {
         panel10.setBackground(Color.white);
 
         panel5.setLayout(new BorderLayout(5, 5));
-
-        panel6.setPreferredSize(new Dimension(50, 50));
-        panel7.setPreferredSize(new Dimension(50, 50));
-        panel8.setPreferredSize(new Dimension(50, 50));
-        panel9.setPreferredSize(new Dimension(50, 50));
-        panel10.setPreferredSize(new Dimension(50, 50));
-
-        panel5.add(panel6, BorderLayout.NORTH);
-        panel5.add(panel7, BorderLayout.SOUTH);
-        panel5.add(panel8, BorderLayout.WEST);
-        panel5.add(panel9, BorderLayout.EAST);
-        panel5.add(panel10, BorderLayout.CENTER);
 
         myFrame.add(panel1, BorderLayout.NORTH);
         myFrame.add(panel4, BorderLayout.WEST);

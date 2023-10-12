@@ -25,20 +25,6 @@ public class MyBorder {
         panel4.setPreferredSize(new Dimension(100, 100));
         panel5.setPreferredSize(new Dimension(100, 100));
 
-        JPanel panel6 = new JPanel();
-        JPanel panel7 = new JPanel();
-        JPanel panel8 = new JPanel();
-        JPanel panel9 = new JPanel();
-        JPanel panel10 = new JPanel();
-
-        panel6.setBackground(Color.black);
-        panel7.setBackground(Color.darkGray);
-        panel8.setBackground(Color.gray);
-        panel9.setBackground(Color.lightGray);
-        panel10.setBackground(Color.white);
-
-        panel5.setLayout(new BorderLayout(5, 5));
-
         myFrame.add(panel1, BorderLayout.NORTH);
         myFrame.add(panel4, BorderLayout.WEST);
         myFrame.add(panel2, BorderLayout.SOUTH);

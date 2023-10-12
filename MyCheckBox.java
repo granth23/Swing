@@ -15,10 +15,10 @@ public class MyCheckBox {
 
         JButton button = new JButton("Click me!");
         button.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e){
                 if(e.getSource() == button){
                     System.out.println(checkBox.isSelected());
+                    checkBox.setSelected(false);
                 }
             }
         });

@@ -1,6 +1,9 @@
+package Extras;
 import java.awt.GridLayout;
 
 import javax.swing.JButton;
+
+import MyFrame;
 
 public class MyGrid {
     public static void main(String[] args) {

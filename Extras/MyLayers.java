@@ -1,5 +1,9 @@
+package Extras;
 import javax.swing.JLabel;
 import javax.swing.JLayeredPane;
+
+import MyFrame;
+
 import java.awt.Color;
 
 public class MyLayers {

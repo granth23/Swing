@@ -2,6 +2,7 @@ import java.awt.event.ActionListener;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import javax.swing.ButtonGroup;
+import javax.swing.JButton;
 import javax.swing.JRadioButton;
 
 public class MyRadio {

@@ -20,11 +20,15 @@ public class Calculator extends JFrame {
         // Create a textarea 1
         JTextArea ta = new JTextArea();
         ta.setBounds(30, 90, 180, 30);
+        ta.setLineWrap(true);
+        ta.setWrapStyleWord(true);
         this.add(ta);
 
         // Create a textarea 2
         JTextArea ta1 = new JTextArea();
         ta1.setBounds(30, 40, 180, 30);
+        ta1.setLineWrap(true);
+        ta1.setWrapStyleWord(true);
         this.add(ta1);
 
         // Create and configure a JButton
